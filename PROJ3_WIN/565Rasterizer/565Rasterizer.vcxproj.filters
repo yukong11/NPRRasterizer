@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\src\cudaMat4.h" />
+    <ClInclude Include="..\..\src\glslUtility.h" />
+    <ClInclude Include="..\..\src\main.h" />
+    <ClInclude Include="..\..\src\rasterizeKernels.h" />
+    <ClInclude Include="..\..\src\rasterizeTools.h" />
+    <ClInclude Include="..\..\src\utilities.h" />
+    <ClInclude Include="..\..\src\ObjCore\obj.h">
+      <Filter>ObjCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ObjCore\objloader.h">
+      <Filter>ObjCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\stb_image\stb_image_write.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\stb_image\stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Scene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\glslUtility.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\utilities.cpp" />
+    <ClCompile Include="..\..\src\ObjCore\obj.cpp">
+      <Filter>ObjCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ObjCore\objloader.cpp">
+      <Filter>ObjCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stb_image\stb_image.c">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\stb_image\stb_image_write.c">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\src\rasterizeKernels.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ObjCore">
+      <UniqueIdentifier>{c37932d5-6627-43c3-9d6b-84866740745c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{bbcad30d-3800-47bf-90e5-37faaca2fcc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
